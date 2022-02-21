@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.10.0b3
 
 ARG REPO=https://github.com/cryptoadvance/github-changelog
 
