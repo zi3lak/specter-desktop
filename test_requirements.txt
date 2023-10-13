@@ -7,3 +7,5 @@ pytest==6.1.2
 PySocks==1.7.1
 pytest-cov==2.10.1
 mock==4.0.2
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
