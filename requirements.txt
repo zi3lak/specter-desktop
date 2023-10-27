@@ -68,7 +68,7 @@ click==7.1.2 \
     # via
     #   -r requirements.in
     #   flask
-cryptography==3.3.2 \
+cryptography==41.0.5 \
     --hash=sha256:0d7b69674b738068fa6ffade5c962ecd14969690585aaca0a1b1fc9058938a72 \
     --hash=sha256:1bd0ccb0a1ed775cd7e2144fe46df9dc03eefd722bbcf587b3e0616ea4a81eff \
     --hash=sha256:3c284fc1e504e88e51c428db9c9274f2da9f73fdf5d7e13a36b8ecb039af6e6c \
@@ -304,7 +304,7 @@ urllib3==1.25.10 \
     --hash=sha256:91056c15fa70756691db97756772bb1eb9678fa585d9184f24534b100dc60f4a \
     --hash=sha256:e7983572181f5e1522d9c98453462384ee92a0be7fac5f1413a1e35c56cc0461
     # via requests
-werkzeug==1.0.1 \
+werkzeug==3.0.1 \
     --hash=sha256:2de2a5db0baeae7b2d2664949077c2ac63fbd16d98da0ff71837f7d1dea3fd43 \
     --hash=sha256:6c80b1e5ad3665290ea39320b91e1be1e0d5f60652b964a3070216de83d2e47c
     # via flask
