@@ -68,7 +68,7 @@ click==7.1.2 \
     # via
     #   -r requirements.in
     #   flask
-cryptography==3.3.2 \
+cryptography==42.0.2 \
     --hash=sha256:0d7b69674b738068fa6ffade5c962ecd14969690585aaca0a1b1fc9058938a72 \
     --hash=sha256:1bd0ccb0a1ed775cd7e2144fe46df9dc03eefd722bbcf587b3e0616ea4a81eff \
     --hash=sha256:3c284fc1e504e88e51c428db9c9274f2da9f73fdf5d7e13a36b8ecb039af6e6c \
@@ -210,7 +210,7 @@ pgpy==0.5.3 \
     --hash=sha256:a49c269cedcaf82ac6999bcae5fd3f543ecb1c759f9d48a15ad8d8fa4ac03987 \
     --hash=sha256:cba6fbbb44a896a8a4f5807b3d8d4943a8f7a6607be11587f4a27734c711c1dd
     # via -r requirements.in
-protobuf==3.13.0 \
+protobuf==3.18.3 \
     --hash=sha256:0bba42f439bf45c0f600c3c5993666fcb88e8441d011fad80a11df6f324eef33 \
     --hash=sha256:1e834076dfef9e585815757a2c7e4560c7ccc5962b9d09f831214c693a91b463 \
     --hash=sha256:339c3a003e3c797bc84499fa32e0aac83c768e67b3de4a5d7a5a9aa3b0da634c \
@@ -320,3 +320,4 @@ zipp==3.3.0 \
 # WARNING: The following packages were not pinned, but pip requires them to be
 # pinned when the requirements file includes hashes. Consider using the --allow-unsafe flag.
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
