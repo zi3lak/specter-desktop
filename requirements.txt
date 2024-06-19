@@ -300,7 +300,7 @@ typing-extensions==3.7.4.3 \
     # via
     #   bitbox02
     #   hwi
-urllib3==1.25.10 \
+urllib3==1.26.19 \
     --hash=sha256:91056c15fa70756691db97756772bb1eb9678fa585d9184f24534b100dc60f4a \
     --hash=sha256:e7983572181f5e1522d9c98453462384ee92a0be7fac5f1413a1e35c56cc0461
     # via requests
