@@ -1,5 +1,5 @@
 
-FROM python:3.8
+FROM python:3.14.0a4
 
 # Installing BerkleyDB 4.8.30
 # Ubuntu specific buw works on debian Buster as well
@@ -19,7 +19,7 @@ RUN cd bitcoin && git checkout v0.20.1
 RUN cd bitcoin && ./autogen.sh && ./configure && make
 RUN cd bitcoin && make install
 
-FROM python:3.8
+FROM python:3.14.0a4
 
 # Installing BerkleyDB 4.8.30
 # Works on debian Buster as well
