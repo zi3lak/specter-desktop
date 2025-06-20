@@ -210,7 +210,7 @@ pgpy==0.5.3 \
     --hash=sha256:a49c269cedcaf82ac6999bcae5fd3f543ecb1c759f9d48a15ad8d8fa4ac03987 \
     --hash=sha256:cba6fbbb44a896a8a4f5807b3d8d4943a8f7a6607be11587f4a27734c711c1dd
     # via -r requirements.in
-protobuf==3.13.0 \
+protobuf==4.25.8 \
     --hash=sha256:0bba42f439bf45c0f600c3c5993666fcb88e8441d011fad80a11df6f324eef33 \
     --hash=sha256:1e834076dfef9e585815757a2c7e4560c7ccc5962b9d09f831214c693a91b463 \
     --hash=sha256:339c3a003e3c797bc84499fa32e0aac83c768e67b3de4a5d7a5a9aa3b0da634c \
@@ -300,7 +300,7 @@ typing-extensions==3.7.4.3 \
     # via
     #   bitbox02
     #   hwi
-urllib3==1.25.10 \
+urllib3==2.5.0 \
     --hash=sha256:91056c15fa70756691db97756772bb1eb9678fa585d9184f24534b100dc60f4a \
     --hash=sha256:e7983572181f5e1522d9c98453462384ee92a0be7fac5f1413a1e35c56cc0461
     # via requests
